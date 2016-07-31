@@ -23,7 +23,7 @@ namespace WpfApplication1
 		public MainWindow()
 		{
 			InitializeComponent();
-			DataContext = new TestBindObject() { A = 10, B = 30 };
+			DataContext = new TestBindObject() { A = 10 };
 		}
 		private void ButtonDispClick(object sender, RoutedEventArgs e)
 		{

@@ -22,16 +22,6 @@ namespace WpfApplication1
 			}
 		}
 
-		public int B
-		{
-			get { return b; }
-			set
-			{
-				b = value;
-				NotifyPropertyChanged("B");
-			}
-		}
-
 		private void NotifyPropertyChanged(string parameter)
 		{
 			PropertyChanged(this, new PropertyChangedEventArgs(parameter));
